@@ -1,4 +1,4 @@
-package com.algorithm.sort;
+package com.algorithm.search;
 
 import static com.algorithm.sort.QuickSort.swap;
 
