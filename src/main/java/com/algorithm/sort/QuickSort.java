@@ -1,8 +1,11 @@
 package com.algorithm.sort;
 
 import java.util.Arrays;
+import java.util.Random;
 
 public class QuickSort {
+
+    private static Random random = new Random();
     public static void main(String[] args) {
         int[] a = {6,11,3,9,8};
         quickSort(a);
@@ -27,6 +30,8 @@ public class QuickSort {
     }
 
     public static int partition(int[] a, int start, int end) {
+        // 随机化最后一个数
+        swap(a, end, end - random.nextInt(end - start + 1));
         // 取最后一个数为pivot
         int pivot = a[end];
         // 使得[start, i-1]中的所有数为小于pivot的
@@ -47,5 +52,20 @@ public class QuickSort {
         int temp = a[i];
         a[i] = a[j];
         a[j] = temp;
+    }
+
+    private static int partition2(int[] a, int start, int end) {
+        int pivot = a[end];
+        int i = start, j = end - 1;
+        while (i < j) {
+            while (a[i] < pivot) i++;
+            while (a[j] > pivot) j--;
+            if (i > j) break;
+            swap(a, i, j);
+            i++;
+            j--;
+        }
+        swap(a, i, end);
+        return i;
     }
 }
