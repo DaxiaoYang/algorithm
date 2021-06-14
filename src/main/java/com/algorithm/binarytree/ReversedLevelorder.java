@@ -1,0 +1,61 @@
+package com.algorithm.binarytree;
+
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Queue;
+
+/**
+ * @ description:
+ * @ author: daxiao
+ * @ date: 2021/6/12
+ */
+public class ReversedLevelorder {
+
+
+    public List<List<Integer>> levelOrderBottom(TreeNode root) {
+        List<List<Integer>> rows = new LinkedList<>();
+        if (root == null) {
+            return rows;
+        }
+        Queue<TreeNode> queue = new LinkedList<>();
+        queue.offer(root);
+        TreeNode curr;
+        while (!queue.isEmpty()) {
+            int rowSize = queue.size();
+            List<Integer> row = new ArrayList<>(rowSize);
+            for (int i = 0; i < rowSize; i++) {
+                curr = queue.poll();
+                row.add(curr.val);
+                if (curr.left != null) {
+                    queue.offer(curr.left);
+                }
+                if (curr.right != null) {
+                    queue.offer(curr.right);
+                }
+            }
+            // 倒序用头插法即可
+            rows.add(0, row);
+        }
+        return rows;
+    }
+
+    public List<List<Integer>> levelOrderBottomRecur(TreeNode root) {
+        List<List<Integer>> rows = new LinkedList<>();
+        dfs(rows, root, 0);
+        return rows;
+    }
+
+    private void dfs(List<List<Integer>> rows, TreeNode root, int depth) {
+        if (root == null) {
+            return;
+        }
+        if (rows.size() == depth) {
+            rows.add(0, new LinkedList<>());
+        }
+        // 找到depth与位置的对应关系
+        rows.get(rows.size() - depth - 1).add(root.val);
+        dfs(rows, root.left, depth + 1);
+        dfs(rows, root.right, depth + 1);
+    }
+}
