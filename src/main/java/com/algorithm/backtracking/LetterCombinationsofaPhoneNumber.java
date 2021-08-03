@@ -31,7 +31,7 @@ public class LetterCombinationsofaPhoneNumber {
             temp.append(chars[i]);
             // 下一个阶段可以选择的字符
             dfs(index + 1, digits, map, res, temp);
-            temp.deleteCharAt(temp.length() - 1);
+            temp.setLength(temp.length() - 1);
         }
     }
 

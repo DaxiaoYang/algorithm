@@ -34,8 +34,12 @@ public class CombinationSum2 {
             return;
         }
         for (int i = start; i < candidates.length; i++) {
-            // 每个阶段的第一个是必须要选的 因为不会跟其他的选择重复 但是后面的重复的不能选
-            if (i > start && candidates[i] == candidates[i - 1] || candidates[i] > target) {
+            // 因为已经排序所以直接剪枝
+            if (candidates[i] > target) {
+                break;
+            }
+            // 每个阶段的重复元素的第一个可以选 因为不会跟其他的选择重复 但是后面的重复的不能选
+            if (i > start && candidates[i] == candidates[i - 1]) {
                 continue;
             }
             temp.add(candidates[i]);

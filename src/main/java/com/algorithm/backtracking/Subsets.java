@@ -38,6 +38,7 @@ public class Subsets {
     }
 
     /**
+     * 组合和分割问题都是找递归树的叶子结点 子集问题是求树的所有结点
      * n叉树 每次决策都有 len - start + 2个分支可以走 即不选择任何一个数 或者选择nums[start..len - 1]
      * @param start
      */

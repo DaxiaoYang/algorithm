@@ -1,6 +1,7 @@
 package com.algorithm.backtracking;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class CombinationSum {
@@ -12,6 +13,7 @@ public class CombinationSum {
 
     public static List<List<Integer>> combinationSum(int[] candidates, int target) {
         List<List<Integer>> res = new ArrayList<>();
+        Arrays.sort(candidates);
         dfs(0, target, candidates, new ArrayList<>(), res);
         return res;
     }
@@ -29,9 +31,9 @@ public class CombinationSum {
         }
         // 选择 [start, len - 1]部分的分支
         for (int i = start; i < nums.length; i++) {
-            // 剪枝
+            // 剪枝 因为之前已经排过序了
             if (nums[i] > target) {
-                continue;
+                break;
             }
             // 选择nums[i] 进入分支
             temp.add(nums[i]);

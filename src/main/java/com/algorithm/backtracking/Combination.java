@@ -26,12 +26,17 @@ public class Combination {
             res.add(new ArrayList<>(temp));
             return;
         }
-        // 选择 [start, n - k + 1]的分支
+        // 选择 [start, n - k + 1]的分支 n - k + 1而非n 为剪枝
+        // 因为剩余待选的数为k个 所以最多剪去那些不能得到k个数的分支
+        // for循环选择的起始位置之后的元素个数 已经不足 我们需要的元素个数了，那么就没有必要搜索了
         for (int i = start; i <= n - k + 1; i++) {
+            // 选择i ∈ [start, n - k + 1]
             temp.add(i);
-            // 选择 [i + 1, n - k + 2]的分支
+            // 进入 i + 1
             dfs(i + 1, n, k - 1, temp, res);
+            // 回退状态
             temp.remove(temp.size() - 1);
         }
     }
+
 }
