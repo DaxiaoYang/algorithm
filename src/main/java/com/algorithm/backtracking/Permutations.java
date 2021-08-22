@@ -15,6 +15,7 @@ public class Permutations {
 
     public static List<List<Integer>> permute(int[] nums) {
         List<List<Integer>> res = new ArrayList<>();
+        // boolean在数组情况下是1个字节 单独一个boolean是4个字节
         dfs(new boolean[nums.length], nums, res, new ArrayList<>());
         return res;
     }
@@ -29,7 +30,7 @@ public class Permutations {
             res.add(new ArrayList<>(temp));
             return;
         }
-        // 每一次的可以选择的分支是 之前没有选择过的数字
+        // 每一次的可以选择的分支是 之前没有选择过的数字 同一个路径下没有被选择的远古三
         for (int i = 0; i < nums.length; i++) {
             if (chosen[i]) {
                 continue;
