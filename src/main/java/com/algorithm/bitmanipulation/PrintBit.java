@@ -8,7 +8,8 @@ package com.algorithm.bitmanipulation;
 public class PrintBit {
 
     public static void main(String[] args) {
-        printBit(-1);
+//        printBit(-1);
+        System.out.println(BitCount4(217));
     }
 
     public static void printBit(int num) {
@@ -19,5 +20,20 @@ public class PrintBit {
             sb.insert(0, lastBit);
         }
         System.out.println(sb);
+    }
+
+    private static int BitCount4(int n) {
+        printBit(n);
+        n = (n &0x55555555) + ((n >>>1) &0x55555555) ;
+        printBit(n);
+        n = (n &0x33333333) + ((n >>>2) &0x33333333) ;
+        printBit(n);
+        n = (n &0x0f0f0f0f) + ((n >>>4) &0x0f0f0f0f) ;
+        printBit(n);
+        n = (n &0x00ff00ff) + ((n >>>8) &0x00ff00ff) ;
+        printBit(n);
+        n = (n &0x0000ffff) + ((n >>>16) &0x0000ffff) ;
+        printBit(n);
+        return n ;
     }
 }

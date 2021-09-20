@@ -14,6 +14,7 @@ public class PerfectSquares {
         System.out.println(wordDict);
     }
 
+
     public static int numSquaresDp2(int n) {
         // status[i]表示和为i的最少需要的完美平方数
         int[] status = new int[n + 1];
@@ -73,5 +74,29 @@ public class PerfectSquares {
             memo[target] = Math.min(res, memo[target]);
         }
         return memo[target];
+    }
+
+    /**
+     * 完全背包问题 物品是 1 4 9 16..这些完全平方数
+     * @param n 背包容量
+     */
+    public int numSquares2(int n) {
+        // 1.dp[j] 和为j 所需的最少的完全平方数
+        int[] dp = new int[n + 1];
+        // 3.每个数所需的最多的完全平方数就是 i 个 1 相加
+        for (int i = 1; i <= n; i++) {
+            dp[i] = i;
+        }
+        // 4. 先遍历物品 再遍历背包容量(正序 因为可以选择多个物品)
+        // square用于存储中间结果避免重复计算
+        // 因为n <= 10^4 所以n * n <= 10^8 < Integer.MAX_VALUE 可以不考虑整数上溢的情况
+        int square;
+        for (int i = 2; (square = i * i) <= n; i++) {
+            for (int j = square; j <= n; j++) {
+                // 2. dp[j] = min(dp[j], dp[j - i * i] + 1) 对每个物品 选或者不选
+                dp[j] = Math.min(dp[j], dp[j - square] + 1);
+            }
+        }
+        return dp[n];
     }
 }

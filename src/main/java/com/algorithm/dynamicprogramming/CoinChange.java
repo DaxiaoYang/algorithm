@@ -1,5 +1,7 @@
 package com.algorithm.dynamicprogramming;
 
+import java.util.Arrays;
+
 public class CoinChange {
 
     public int coinChange(int[] coins, int amount) {
@@ -47,5 +49,25 @@ public class CoinChange {
         }
         memo[amount] = min == Integer.MAX_VALUE ? -1 : min + 1;
         return memo[amount];
+    }
+
+    public int coinChange2(int[] coins, int amount) {
+        // 1.dp[j] 装满容量为j的背包 所需硬币的最小数量是多少
+        int[] dp = new int[amount + 1];
+        // 初始 用于后面的min函数 值为max 表示不可达
+        Arrays.fill(dp, Integer.MAX_VALUE);
+        // 3. 容量为0 组成的数为0
+        dp[0] = 0;
+        // 4.先遍历物品 再遍历容量(完全背包 内层正序)
+        for (int coin : coins) {
+            for (int i = coin; i <= amount; i++) {
+                if (dp[i - coin] == Integer.MAX_VALUE) {
+                    continue;
+                }
+                // 2. dp[j] = min(dp[j], dp[j - coins[i]] + 1) 不选 选
+                dp[i] = Math.min(dp[i], dp[i - coin] + 1);
+            }
+        }
+        return dp[amount] == Integer.MAX_VALUE ? -1 : dp[amount];
     }
 }
