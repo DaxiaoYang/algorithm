@@ -7,9 +7,9 @@ package com.algorithm.linkedlist;
  */
 public class ListNode {
 
-    int val;
+    public int val;
 
-    ListNode next;
+    public ListNode next;
 
     public ListNode() {
     }

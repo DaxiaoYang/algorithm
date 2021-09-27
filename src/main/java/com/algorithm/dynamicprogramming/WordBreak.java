@@ -46,4 +46,24 @@ public class WordBreak {
         }
         return false;
     }
+
+
+    public boolean wordBreak2(String s, List<String> wordDict) {
+        Set<String> set = new HashSet<>(wordDict);
+        // 1.dp[i] = true 表示长度为i的字符串可由集合中的字符串表示
+        boolean[] dp = new boolean[s.length() + 1];
+        // 3. 初始化 无意义
+        dp[0] = true;
+        // 4. 先遍历背包容量 方便求substring 内层正序 因为物品可以选多次（完全背包）
+        for (int i = 0; i <= s.length(); i++) {
+            for (int j = 0; j < i; j++) {
+                // 2. 当dp[j] = true 且 [j, i]这个子串在集合中时  dp[i]为true
+                if (dp[j] && set.contains(s.substring(j, i))) {
+                    dp[i] = true;
+                    break;
+                }
+            }
+        }
+        return dp[s.length()];
+    }
 }
