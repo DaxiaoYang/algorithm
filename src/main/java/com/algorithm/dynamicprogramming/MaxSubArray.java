@@ -119,4 +119,18 @@ public class MaxSubArray {
         }
         return maxSum;
     }
+
+    public int maxSubArray(int[] nums) {
+        // 1.dp[i] 以i结尾的子数组的最大和
+        int[] dp = new int[nums.length];
+        // 3. 按定义
+        dp[0] = nums[0];
+        int res = nums[0];
+        for (int i = 1; i < nums.length; i++) {
+            // 2.两个方向 将当前数加入到之前的子数组中 或者是重新开一个子数组
+            dp[i] = Math.max(dp[i - 1] + nums[i], nums[i]);
+            res = Math.max(res, dp[i]);
+        }
+        return res;
+    }
 }

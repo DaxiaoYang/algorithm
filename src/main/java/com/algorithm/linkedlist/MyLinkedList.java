@@ -89,7 +89,7 @@ class MyLinkedList {
         return true;
     }
 
-    private class Node {
+    private static class Node {
 
         int val;
 

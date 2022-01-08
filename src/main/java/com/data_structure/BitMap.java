@@ -35,14 +35,17 @@ public class BitMap {
     }
 
     public static void main(String[] args) {
-        BitSet bitSet = new BitSet();
-        BitMap bitMap = new BitMap(15);
-        bitMap.set(1);
-        bitMap.set(4);
-        bitMap.set(13);
-        System.out.println(bitMap.exist(1));
-        System.out.println(bitMap.exist(4));
-        System.out.println(bitMap.exist(13));
-        System.out.println(bitMap.exist(14));
+//        BitSet bitSet = new BitSet();
+//        BitMap bitMap = new BitMap(15);
+//        bitMap.set(1);
+//        bitMap.set(4);
+//        bitMap.set(13);
+//        System.out.println(bitMap.exist(1));
+//        System.out.println(bitMap.exist(4));
+//        System.out.println(bitMap.exist(13));
+//        System.out.println(bitMap.exist(14));
+
+        int num = 2;
+        System.out.println(1 + (num >> 1));
     }
 }

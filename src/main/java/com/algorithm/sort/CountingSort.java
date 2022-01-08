@@ -4,13 +4,13 @@ import java.util.Arrays;
 
 public class CountingSort {
     public static void main(String[] args) {
-//        int[] a = {2,5,3,0,2,3,0,3};
-//        countingSort(a);
-//        System.out.println(Arrays.toString(a));
+        int[] a = {2,5,3,0,2,3,0,3};
+        countSort2(a);
+        System.out.println(Arrays.toString(a));
 
-        char[] c = {'a', '1', 'B', 'b', 'A', '2'};
-        sortChar(c);
-        System.out.println(Arrays.toString(c));
+//        char[] c = {'a', '1', 'B', 'b', 'A', '2'};
+//        sortChar(c);
+//        System.out.println(Arrays.toString(c));
     }
 
     /**
@@ -89,5 +89,34 @@ public class CountingSort {
         char temp = c[i];
         c[i] = c[j];
         c[j] = temp;
+    }
+
+
+
+    private static void countSort2(int[] nums) {
+        // 假设nums的范围为 [0, max] 若存在负数则需要加上偏移量 若为小数则可以乘以10的倍数 转化为非负整数
+        int max = 0;
+        for (int num : nums) {
+            if (num > max) {
+                max = num;
+            }
+        }
+        int[] count = new int[max + 1];
+        for (int num : nums) {
+            count[num]++;
+        }
+        for (int i = 1; i < count.length; i++) {
+            count[i] += count[i - 1];
+        }
+        int[] temp = new int[nums.length];
+        int index;
+        for (int i = nums.length - 1; i >= 0; i--) {
+            index = count[nums[i]] - 1;
+            temp[index] = nums[i];
+            count[nums[i]]--;
+        }
+        for (int i = 0; i < nums.length; i++) {
+            nums[i] = temp[i];
+        }
     }
 }

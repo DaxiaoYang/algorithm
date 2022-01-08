@@ -21,4 +21,23 @@ public class MinimumSizeSubArraySum {
         }
         return minLen == Integer.MAX_VALUE ? 0 : minLen;
     }
+
+    public int minSubArrayLen2(int target, int[] nums) {
+        int i = 0, j = 0, minLen = Integer.MAX_VALUE, sum = nums[0];
+        // [i,j]窗口范围 sum为窗口范围内的子数组的和
+        while (i < nums.length) {
+            if (sum < target) {
+                // 当j == len - 1时 len - 1已经被计算过 仍然小于目标 没有继续需要添加的元素了 所以退出
+                if (j == nums.length - 1) {
+                    break;
+                }
+                sum += nums[++j];
+            } else {
+                minLen = Math.min(minLen, j - i + 1);
+                sum -= nums[i++];
+            }
+        }
+        // 未找到一个子数组 minLen仍为原值
+        return minLen == Integer.MAX_VALUE ? 0 : minLen;
+    }
 }

@@ -11,7 +11,7 @@ import java.util.concurrent.locks.ReentrantLock;
  * @ author: daxiao
  * @ date: 2021/9/25
  */
-public class BlockingQueue<T> {
+public class MyBlockingQueue<T> {
 
     private Queue<T> queue;
 
@@ -30,7 +30,7 @@ public class BlockingQueue<T> {
     private Condition notFull = lock.newCondition();
 
 
-    public BlockingQueue(int capacity) {
+    public MyBlockingQueue(int capacity) {
         queue = new ArrayDeque<>(capacity);
         this.capacity = capacity;
     }
@@ -70,13 +70,13 @@ public class BlockingQueue<T> {
     }
 
     public static void main(String[] args) {
-        BlockingQueue<String> blockingQueue = new BlockingQueue<>(4);
+        MyBlockingQueue<String> myBlockingQueue = new MyBlockingQueue<>(4);
         new Thread(() -> {
-            String take = blockingQueue.take();
+            String take = myBlockingQueue.take();
             System.out.println(take);
         }).start();
         new Thread(() -> {
-            blockingQueue.add("123");
+            myBlockingQueue.add("123");
         }).start();
     }
 }

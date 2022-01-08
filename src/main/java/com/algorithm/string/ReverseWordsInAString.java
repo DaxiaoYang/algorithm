@@ -39,4 +39,38 @@ public class ReverseWordsInAString {
         }
         return sb.toString();
     }
+
+    public String reverseWords2(String s) {
+        int len = s.length();
+        StringBuilder sb = new StringBuilder(len);
+        int start = len - 1;
+        int end = getNextWordEnd(s, start);
+        start = getNextWordStart(s, end);
+        while (true) {
+            for (int i = start + 1; i <= end; i++) {
+                sb.append(s.charAt(i));
+            }
+            end = getNextWordEnd(s, start);
+            start = getNextWordStart(s, end);
+            if (end == start) {
+                break;
+            }
+            sb.append(' ');
+        }
+        return sb.toString();
+    }
+
+    private int getNextWordEnd(String s, int start) {
+        while (start >= 0 && s.charAt(start) == ' ') {
+            start--;
+        }
+        return start;
+    }
+
+    private int getNextWordStart(String s, int end) {
+        while (end >= 0 && s.charAt(end) != ' ') {
+            end--;
+        }
+        return end;
+    }
 }

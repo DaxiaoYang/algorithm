@@ -8,6 +8,16 @@ package com.algorithm.linkedlist;
  */
 public class isPalindromeInLinkedList {
 
+    public static void main(String[] args) {
+        CharNode head = new CharNode('a');
+        CharNode next = new CharNode('b');
+        head.next = next;
+        CharNode next1 = new CharNode('c');
+        next.next = next1;
+        next1.next = new CharNode('a');
+        System.out.println(isPalindrome(head));
+    }
+
     public static boolean isPalindrome(CharNode head) {
         if (head == null) {
             return true;

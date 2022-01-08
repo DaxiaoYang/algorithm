@@ -31,4 +31,22 @@ public class SwapNodesInPairs {
         next.next = head;
         return next;
     }
+
+
+    public ListNode swapPairs3(ListNode head) {
+        ListNode dummy = new ListNode(0);
+        dummy.next = head;
+        ListNode curr = dummy;
+        ListNode next, nextStart;
+        // 虚拟节点 方法 每次处理两个结点
+        while (curr.next != null && curr.next.next != null) {
+            next = curr.next;
+            nextStart = curr.next.next.next;
+            curr.next = curr.next.next;
+            curr.next.next = next;
+            next.next = nextStart;
+            curr = curr.next.next;
+        }
+        return dummy.next;
+    }
 }

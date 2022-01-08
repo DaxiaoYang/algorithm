@@ -62,4 +62,38 @@ public class EditDistance {
         }
         return min;
     }
+
+
+    public int minDistance(String word1, String word2) {
+        int len1 = word1.length();
+        int len2 = word2.length();
+        // 1.dp[i][j] A[0,i-1]到B[0,j-1]的最小编辑距离
+        int[][] dp = new int[len1 + 1][len2 + 1];
+        // 3.
+        for (int i = 1; i <= len1; i++) {
+            dp[i][0] = i;
+        }
+        for (int j = 1; j <= len2; j++) {
+            dp[0][j] = j;
+        }
+        for (int i = 1; i <= len1; i++) {
+            for (int j = 1; j <= len2; j++) {
+                // 2. 两种情况 A[i-1] == / != B[j-1]
+                if (word1.charAt(i - 1) == word2.charAt(j - 1)) {
+                    // 不需要额外的编辑距离 a a -> ab ab
+                    dp[i][j] = dp[i - 1][j - 1];
+                } else {
+                    /*
+                        a a -> ab ac
+                        不同时 有三种处理方式：
+                        1. 删A[i-1] dp[i-1][j] + 1
+                        2. 删B[j-1] dp[i][j-1] + 1
+                        3. 替换A[i-1]/B[j-1] dp[i-1][j-1] + 1
+                     */
+                    dp[i][j] = Math.min(Math.min(dp[i - 1][j], dp[i][j - 1]), dp[i - 1][j - 1]) + 1;
+                }
+            }
+        }
+        return dp[len1][len2];
+    }
 }

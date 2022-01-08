@@ -44,13 +44,22 @@ public class Levelorder {
         return rows;
     }
 
+    /***
+     *
+     * 二叉树先序遍历
+     * @param rows 返回的层序遍历列表
+     * @param root 要遍历的树的根结点
+     * @param depth 深度 假定根结点深度为0
+     */
     private void dfs(List<List<Integer>> rows, TreeNode root, int depth) {
         if (root == null) {
             return;
         }
+        // 说明第一次到达该层 建立该层的列表
         if (rows.size() == depth) {
             rows.add(new LinkedList<>());
         }
+        // 每个结点都放到对应层次的列表中
         rows.get(depth).add(root.val);
         dfs(rows, root.left, depth + 1);
         dfs(rows, root.right, depth + 1);
