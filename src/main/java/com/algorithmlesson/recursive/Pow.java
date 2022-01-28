@@ -31,4 +31,28 @@ public class Pow {
         // 3. 每次将n的规模减半 奇偶分开处理
         return n % 2 == 0 ? myPow(x * x, n / 2) : x * myPow(x * x, n / 2);
     }
+
+
+
+    public double myPow2(double x, int n) {
+        if (n >= 0) {
+            return myPowRecur(x, n);
+        } else {
+            // 负数处理
+            return 1 / x * myPowRecur(1 / x, -(n + 1));
+        }
+    }
+
+    private double myPowRecur(double x, int n) {
+        if (n == 0) {
+            return 1;
+        }
+        // 基本思想：只需要计算一半的数值
+        double halfPow = myPowRecur(x, n / 2);
+        if (n % 2 == 1) {
+            return halfPow * halfPow * x;
+        } else {
+            return halfPow * halfPow;
+        }
+    }
 }

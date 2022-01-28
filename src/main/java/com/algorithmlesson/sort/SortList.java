@@ -58,59 +58,73 @@ public class SortList {
 
 
     public static void main(String[] args) {
-        ListNode root = new ListNode(-1, new ListNode(5, new ListNode(3, new ListNode(4, new ListNode(0)))));
+        ListNode root = new ListNode(4, new ListNode(2, new ListNode(1, new ListNode(3))));
         sortList2(root);
         System.out.println("");
     }
 
 
-
+    /**
+     * 自底向上归并合并链表
+     * @param head
+     * @return
+     */
     public static ListNode sortList2(ListNode head) {
+        // 本轮要合并的链表的长度
         int step = 1;
         int len = getLength(head);
         while (step < len) {
+            // 每轮都是遍历原链表 构造链表
             ListNode dummy = new ListNode();
             ListNode tail = dummy;
             ListNode curr = head;
             while (curr != null) {
-                ListNode start1 = curr;
-                ListNode end1 = start1;
+                // 合并[low,mid] [mid+1, high]两个链表
+                ListNode low = curr;
+                ListNode mid = curr;
                 int count = 1;
-                while (end1 != null && count < step) {
-                    end1 = end1.next;;
+                while (mid != null && count < step) {
+                    mid = mid.next;
                     count++;
                 }
-                if (end1 == null || end1.next == null) {
-                    tail.next = curr;
+                // 第一个链表不满step个 或者只有第一个链表 说明本轮归并结束
+                // [low, mid) 这部分已经有序 直接加入结果链表中
+                if (mid == null || mid.next == null) {
+                    tail.next = low;
                     break;
                 }
-                ListNode start2 = end1.next;
-                ListNode end2 = start2;
+                ListNode high = mid.next;
                 count = 1;
-                while (end2 != null && count < step) {
-                    end2 = end2.next;
+                while (high != null && count < step) {
+                    high = high.next;
                     count++;
                 }
+                // 记录下一个要归并的左链表的头结点
                 ListNode next = null;
-                if (end2 != null) {
-                    next = end2.next;
-                    end2.next = null;
+                // high == null 为第二个链表不满step个的情况
+                if (high != null) {
+                    next = high.next;
                 }
-                end1.next = null;
-                ListNode[] headTail = merge2(start1, start2);
-                tail.next = headTail[0];
-                tail = headTail[1];
+                // 返回归并后的结果链表的头和尾
+                ListNode[] headAndTail = merge(low, mid, high);
+                tail.next = headAndTail[0];
+                tail = headAndTail[1];
                 curr = next;
             }
+            // 更新head
             head = dummy.next;
+            // 步长增加
             step *= 2;
         }
         return head;
     }
 
-    private static ListNode[] merge2(ListNode left, ListNode right) {
+    private static ListNode[] merge(ListNode low, ListNode mid, ListNode high) {
         ListNode dummy = new ListNode();
         ListNode tail = dummy;
+        ListNode left = low, right = mid.next;
+        mid.next = null;
+        high.next = null;
         while (left != null && right != null) {
             if (left.val <= right.val) {
                 tail.next = left;
@@ -123,22 +137,21 @@ public class SortList {
         }
         while (left != null) {
             tail.next = left;
-            tail = left;
             left = left.next;
+            tail = tail.next;
         }
         while (right != null) {
             tail.next = right;
-            tail = right;
             right = right.next;
+            tail = tail.next;
         }
         return new ListNode[]{dummy.next, tail};
     }
 
     private static int getLength(ListNode head) {
         int len = 0;
-        ListNode curr = head;
-        while (curr != null) {
-            curr = curr.next;
+        while (head != null) {
+            head = head.next;
             len++;
         }
         return len;

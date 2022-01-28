@@ -4,158 +4,212 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21e93c66-d267-423b-82c0-358a8f86429a" name="Default Changelist" comment="·">
-      <change afterPath="$PROJECT_DIR$/.idea/algorithm.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_75.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_11_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_11_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_11_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_f4b6a3_uuid_creator_3_7_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_2_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_failureaccess_1_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_30_1_1_jre.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_listenablefuture_9999_0_empty_to_avoid_conflict_with_guava.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_lmax_disruptor_3_4_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_activation_javax_activation_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_ws_rs_javax_ws_rs_api_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_22.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_22.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_jcip_jcip_annotations_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_13_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_13_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_pulsar_bouncy_castle_bc_pkg_2_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_pulsar_pulsar_client_2_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_pulsar_pulsar_client_admin_api_2_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_pulsar_pulsar_client_api_2_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_66.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_45.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_66.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_jasper_8_5_66.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_45.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_annotations_api_8_5_66.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_annotations_api_9_0_45.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_api_8_5_66.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_el_api_8_5_66.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_jasper_8_5_66.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_jasper_el_8_5_66.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_jsp_api_8_5_66.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_juli_8_5_66.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_servlet_api_8_5_66.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_util_8_5_66.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_util_scan_8_5_66.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_18_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_68.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_ext_jdk15on_1_68.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_68.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_3_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jdt_ecj_3_12_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jakarta_el_3_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_3_6_28.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_6_28.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_30.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_4_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_4_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_4_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_4_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_4_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_4_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_4_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_4_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_4_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_4_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_10_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_3_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_10_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_3_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_10_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_3_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_10_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_3_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_10_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_3_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_3_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_3_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_10_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_3_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_10_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_3_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_syslog4j_syslog4j_0_9_30.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_27.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/designpattern_0_0_1_SNAPSHOT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/maven_wrapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithm/backtracking/NQueues.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithm/backtracking/ReconstructItinerary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithm/backtracking/Sudoku.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithm/greedy/AssignCookies.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithm/greedy/BestTimeToBuyAndSellStock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithm/greedy/Candy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithm/greedy/GasStation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithm/greedy/JumpGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithm/greedy/JumpGame2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithm/greedy/MaximumSumAfterNNegations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithm/greedy/WiggleSubsequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../designpattern/src/main/java/com/daxiao/designpattern/GcTestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../designpattern/src/main/java/com/daxiao/designpattern/TraceValve.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../designpattern/src/main/java/com/daxiao/designpattern/capturinglambda/CapturingLambdaTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../designpattern/src/main/java/com/daxiao/designpattern/distruptor/logevent/LogEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../designpattern/src/main/java/com/daxiao/designpattern/distruptor/logevent/LogEventMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../designpattern/src/main/java/com/daxiao/designpattern/distruptor/logevent/LogInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../designpattern/src/main/java/com/daxiao/designpattern/distruptor/logevent/LogInfoConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../designpattern/src/main/java/com/daxiao/designpattern/distruptor/logevent/LogList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../designpattern/src/main/java/com/daxiao/designpattern/distruptor/longEvent/DistruptorMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../designpattern/src/main/java/com/daxiao/designpattern/distruptor/longEvent/LongConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../designpattern/src/main/java/com/daxiao/designpattern/distruptor/longEvent/LongHolder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../designpattern/src/main/java/com/daxiao/designpattern/opensource/guava/AddLogCollection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../designpattern/src/main/java/com/daxiao/designpattern/opensource/guava/Guava.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+    <list default="true" id="21e93c66-d267-423b-82c0-358a8f86429a" name="Default Changelist" comment="39">
+      <change afterPath="$PROJECT_DIR$/../Spring/geekbang-lessons" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__c3p0_c3p0_0_9_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_barchart_udt_barchart_udt_bundle_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_aalto_xml_1_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_4_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_1_69_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_69_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_69_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_dns_4_1_69_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_haproxy_4_1_69_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http2_4_1_69_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_69_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_memcache_4_1_69_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_mqtt_4_1_69_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_redis_4_1_69_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_smtp_4_1_69_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_socks_4_1_69_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_stomp_4_1_69_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_xml_4_1_69_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_69_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_69_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_proxy_4_1_69_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_69_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_dns_4_1_69_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_dns_native_macos_4_1_69_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_dns_native_macos_osx_aarch_64_4_1_69_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_dns_native_macos_osx_x86_64_4_1_69_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_69_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_4_1_69_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_linux_aarch_64_4_1_69_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_linux_x86_64_4_1_69_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_kqueue_4_1_69_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_kqueue_osx_aarch_64_4_1_69_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_kqueue_osx_x86_64_4_1_69_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_69_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_rxtx_4_1_69_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_sctp_4_1_69_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_udt_4_1_69_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_4_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_java_websocket_Java_WebSocket_1_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_quartz_scheduler_quartz_2_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_rxtx_rxtx_2_1_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithmlesson/backtrack/CombinationOfPhoneNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithmlesson/backtrack/Composition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithmlesson/backtrack/Permutation2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithmlesson/backtrack/Sudoku.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithmlesson/binarytree/ConstrunctFromPreAndPost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithmlesson/binarytree/DiameterOfBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithmlesson/binarytree/LowestCommonAncestor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithmlesson/binarytree/LowestCommonAncestorInBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithmlesson/binarytree/MaximumPathSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithmlesson/binarytree/ValidPostOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithmlesson/dynamicprogramming/Baggage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithmlesson/heap/Heap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithmlesson/heap/KClosest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithmlesson/heap/MergeKSortedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithmlesson/sort/HeapSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithmlesson/sort/SmallestK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithmlesson/string/Trie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../designpattern" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../embeddedTomcat/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../embeddedTomcat/.idea/embeddedTomcat.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../embeddedTomcat/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../embeddedTomcat/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../embeddedTomcat/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-practice/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-practice/spring-practice.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-practice/src/main/java/com/daxiao/ioc/dependency/injection/DependencyInjectionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-practice/src/main/java/com/daxiao/ioc/dependency/injection/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-practice/src/main/java/com/daxiao/ioc/dependency/lookup/LookupDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-practice/src/main/java/com/daxiao/ioc/dependency/lookup/Super.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-practice/src/main/java/com/daxiao/ioc/dependency/lookup/SuperUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-practice/src/main/java/com/daxiao/ioc/dependency/lookup/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-practice/src/main/java/com/daxiao/meta/BeanInfoDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-practice/src/main/java/com/daxiao/meta/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-practice/src/main/resources/META-INF/dependency-injection.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-practice/src/main/resources/META-INF/dependency-lookup.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/.idea/libraries/Maven__com_alibaba_fastjson_1_2_75.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/.idea/libraries/Maven__com_google_code_gson_gson_2_2_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_66.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_66.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_jasper_8_5_66.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/.idea/libraries/Maven__org_apache_tomcat_tomcat_annotations_api_8_5_66.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/.idea/libraries/Maven__org_apache_tomcat_tomcat_api_8_5_66.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/.idea/libraries/Maven__org_apache_tomcat_tomcat_el_api_8_5_66.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/.idea/libraries/Maven__org_apache_tomcat_tomcat_jasper_8_5_66.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/.idea/libraries/Maven__org_apache_tomcat_tomcat_jasper_el_8_5_66.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/.idea/libraries/Maven__org_apache_tomcat_tomcat_jsp_api_8_5_66.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/.idea/libraries/Maven__org_apache_tomcat_tomcat_juli_8_5_66.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/.idea/libraries/Maven__org_apache_tomcat_tomcat_servlet_api_8_5_66.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/.idea/libraries/Maven__org_apache_tomcat_tomcat_util_8_5_66.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/.idea/libraries/Maven__org_apache_tomcat_tomcat_util_scan_8_5_66.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/.idea/libraries/Maven__org_eclipse_jdt_ecj_3_12_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/.idea/libraries/Maven__org_projectlombok_lombok_1_18_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/.idea/libraries/Maven__org_springframework_spring_aop_4_3_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/.idea/libraries/Maven__org_springframework_spring_beans_4_3_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/.idea/libraries/Maven__org_springframework_spring_context_4_3_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/.idea/libraries/Maven__org_springframework_spring_core_4_3_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/.idea/libraries/Maven__org_springframework_spring_expression_4_3_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/.idea/libraries/Maven__org_springframework_spring_web_4_3_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/embeddedTomcatSample.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/src/main/java/AsyncServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/src/main/java/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/src/main/java/DoubleBracket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/src/main/java/MergeTreePartition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/src/main/java/MyServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/src/main/java/concurrent/ReentrantLockTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/src/main/java/concurrent/SynchronousQueueTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/src/main/java/concurrent/ThreadLocalTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/src/main/java/eventbus/BaseObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/src/main/java/eventbus/EventBusTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/src/main/java/eventbus/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/src/main/java/jdk/HashMapSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/src/main/java/jvm/CountTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/src/main/java/jvm/Passenger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/src/main/java/jvm/奸商.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/src/main/java/launch/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/src/main/java/nio/AcceptHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/src/main/java/nio/Channel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/src/main/java/nio/NIOClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/src/main/java/nio/NIOServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/src/main/java/nio/Nio2Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/src/main/java/nio/ReadHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/src/main/java/servlet/HelloServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/src/main/java/websocket/ChatEndpoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/src/main/java/websocket/WebSocketClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/src/main/java/work/DailyLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/src/main/java/work/WorkJsonGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/src/main/resources/example.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/target/bin/webapp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/target/bin/webapp.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/target/classes/AsyncServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/target/classes/Demo$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/target/classes/Demo$UserSession.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/target/classes/Demo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/target/classes/DoubleBracket$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/target/classes/DoubleBracket.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/target/classes/MyServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/target/classes/SubClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/target/classes/concurrent/ReentrantLockTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/target/classes/concurrent/ThreadLocalTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/target/classes/eventbus/BaseObserver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/target/classes/eventbus/EventBusTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/target/classes/eventbus/Observer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/target/classes/example.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/target/classes/launch/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/target/classes/nio/AcceptHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/target/classes/nio/Channel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/target/classes/nio/NIOClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/target/classes/nio/NIOServer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/target/classes/nio/Nio2Server.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/target/classes/nio/ReadHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/target/classes/servlet/HelloServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/target/classes/websocket/ChatEndpoint.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/target/classes/work/DailyLog$Issue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/target/classes/work/DailyLog$Note.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/target/classes/work/DailyLog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/target/classes/work/WorkJsonGenerator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/target/embeddedTomcatSample.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/target/repo/com/heroku/sample/embeddedTomcatSample/1.0-SNAPSHOT/embeddedTomcatSample-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/target/repo/org/apache/tomcat/embed/tomcat-embed-core/8.5.66/tomcat-embed-core-8.5.66.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/target/repo/org/apache/tomcat/embed/tomcat-embed-el/8.5.66/tomcat-embed-el-8.5.66.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/target/repo/org/apache/tomcat/embed/tomcat-embed-jasper/8.5.66/tomcat-embed-jasper-8.5.66.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/target/repo/org/apache/tomcat/tomcat-annotations-api/8.5.66/tomcat-annotations-api-8.5.66.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/target/repo/org/apache/tomcat/tomcat-api/8.5.66/tomcat-api-8.5.66.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/target/repo/org/apache/tomcat/tomcat-el-api/8.5.66/tomcat-el-api-8.5.66.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/target/repo/org/apache/tomcat/tomcat-jasper-el/8.5.66/tomcat-jasper-el-8.5.66.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/target/repo/org/apache/tomcat/tomcat-jasper/8.5.66/tomcat-jasper-8.5.66.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/target/repo/org/apache/tomcat/tomcat-jsp-api/8.5.66/tomcat-jsp-api-8.5.66.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/target/repo/org/apache/tomcat/tomcat-juli/8.5.66/tomcat-juli-8.5.66.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/target/repo/org/apache/tomcat/tomcat-servlet-api/8.5.66/tomcat-servlet-api-8.5.66.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/target/repo/org/apache/tomcat/tomcat-util-scan/8.5.66/tomcat-util-scan-8.5.66.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/target/repo/org/apache/tomcat/tomcat-util/8.5.66/tomcat-util-8.5.66.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/target/repo/org/eclipse/jdt/ecj/3.12.3/ecj-3.12.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/target/tomcat-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/tomcat.8080/work/Tomcat/localhost/ROOT/org/apache/jsp/index_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tomcat/tomcat.8080/work/Tomcat/localhost/ROOT/org/apache/jsp/index_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$" beforeDir="false" afterPath="$PROJECT_DIR$" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/algorithm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/algorithm.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/algorithm/backtracking/Permutations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algorithm/backtracking/Permutations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/algorithm/backtracking/Combination.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/algorithm/backtracking/Combination.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/algorithm/backtracking/CombinationSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/algorithm/backtracking/CombinationSum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/algorithm/backtracking/CombinationSum2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/algorithm/backtracking/CombinationSum2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/algorithm/backtracking/LetterCombinationsofaPhoneNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/algorithm/backtracking/LetterCombinationsofaPhoneNumber.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/algorithm/backtracking/Permutations.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/algorithm/backtracking/Permutations.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/algorithm/backtracking/Subsets.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/algorithm/backtracking/Subsets.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../designpattern/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../designpattern/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../designpattern/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/algorithmlesson/binarytree/DfsIterative.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algorithmlesson/binarytree/DfsIterative.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/algorithmlesson/recursive/Multiply.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algorithmlesson/recursive/Multiply.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/algorithmlesson/recursive/Pow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algorithmlesson/recursive/Pow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/algorithmlesson/sort/SortList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algorithmlesson/sort/SortList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sort/SortAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algorithmlesson/sort/SortAlgorithm.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,15 +221,20 @@
       <list>
         <option value="Enum" />
         <option value="Interface" />
+        <option value="spring-beans.schema" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../designpattern" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/src.zip!/java/lang/Thread.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$USER_HOME$/Documents/maven/apache-maven-3.6.3/repository/org/apache/tomcat/embed/tomcat-embed-core/8.5.66/tomcat-embed-core-8.5.66-sources.jar!/org/apache/tomcat/util/threads/ThreadPoolExecutor.java" root0="SKIP_INSPECTION" />
+    <setting file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/src.zip!/java/lang/ThreadLocal.java" root0="SKIP_INSPECTION" />
+    <setting file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/src.zip!/java/util/Objects.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -184,6 +243,11 @@
         <option name="mavenHome" value="$USER_HOME$/Documents/maven/apache-maven-3.6.3" />
         <option name="userSettingsFile" value="$USER_HOME$/Documents/maven/apache-maven-3.6.3/conf/settings.xml" />
       </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="1.8" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="ProjectId" id="1ohqha8h7BJ5rdlY7TZa3jafnID" />
@@ -211,17 +275,23 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/../designpattern/src/main/java/com/daxiao/designpattern/designpattern/singleton" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../spring-practice/src/main/resources/META-INF" />
       <recent name="$PROJECT_DIR$/../designpattern/src/main/java/com/daxiao/designpattern/designpattern/singleton" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.data_structure" />
+      <recent name="" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.WorkJsonGenerator">
+  <component name="RunManager" selected="Application.Baggage">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -233,33 +303,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CapturingLambdaTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.daxiao.designpattern.capturinglambda.CapturingLambdaTest" />
-      <module name="designpattern" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DistruptorMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.daxiao.designpattern.distruptor.longEvent.DistruptorMain" />
-      <module name="designpattern" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EventBusTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="eventbus.EventBusTest" />
-      <module name="embeddedTomcatSample" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GasStation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.algorithm.greedy.GasStation" />
+    <configuration name="Baggage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algorithmlesson.dynamicprogramming.Baggage" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.algorithm.greedy.*" />
+          <option name="PATTERN" value="com.algorithmlesson.dynamicprogramming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -267,9 +316,54 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WorkJsonGenerator" type="Application" factoryName="Application" temporary="true">
+    <configuration name="CombinationOfPhoneNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algorithmlesson.backtrack.CombinationOfPhoneNumber" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.algorithmlesson.backtrack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algorithmlesson.sort.HeapSort" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.algorithmlesson.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Permutation2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algorithmlesson.backtrack.Permutation2" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.algorithmlesson.backtrack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WorkJsonGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="work.WorkJsonGenerator" />
-      <module name="tomcat" />
+      <module name="embeddedTomcatSample" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="work.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -285,19 +379,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.WorkJsonGenerator" />
-      <item itemvalue="Application.CapturingLambdaTest" />
-      <item itemvalue="Application.DistruptorMain" />
-      <item itemvalue="Application.EventBusTest" />
-      <item itemvalue="Application.GasStation" />
+      <item itemvalue="Application.CombinationOfPhoneNumber" />
+      <item itemvalue="Application.Permutation2" />
+      <item itemvalue="Application.HeapSort" />
+      <item itemvalue="Application.Baggage" />
       <item itemvalue="Spring Boot.DesignpatternApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Baggage" />
+        <item itemvalue="Application.HeapSort" />
         <item itemvalue="Application.WorkJsonGenerator" />
-        <item itemvalue="Application.DistruptorMain" />
-        <item itemvalue="Application.EventBusTest" />
-        <item itemvalue="Application.GasStation" />
-        <item itemvalue="Application.CapturingLambdaTest" />
+        <item itemvalue="Application.Permutation2" />
+        <item itemvalue="Application.CombinationOfPhoneNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -548,7 +642,300 @@
       <workItem from="1629424703739" duration="6547000" />
       <workItem from="1629479853422" duration="2925000" />
       <workItem from="1629510678125" duration="2710000" />
-      <workItem from="1629611402886" duration="11522000" />
+      <workItem from="1629611402886" duration="12913000" />
+      <workItem from="1629673534747" duration="1334000" />
+      <workItem from="1629695482467" duration="4103000" />
+      <workItem from="1629722716426" duration="2553000" />
+      <workItem from="1629768535201" duration="4427000" />
+      <workItem from="1629849266403" duration="410000" />
+      <workItem from="1629883098327" duration="1228000" />
+      <workItem from="1629889142201" duration="598000" />
+      <workItem from="1630020949469" duration="822000" />
+      <workItem from="1630027057519" duration="51000" />
+      <workItem from="1630134654061" duration="3622000" />
+      <workItem from="1630281558428" duration="1471000" />
+      <workItem from="1630317237619" duration="1951000" />
+      <workItem from="1630324050809" duration="1198000" />
+      <workItem from="1630368347497" duration="314000" />
+      <workItem from="1630406164900" duration="373000" />
+      <workItem from="1630454830509" duration="732000" />
+      <workItem from="1630491763349" duration="338000" />
+      <workItem from="1630492221178" duration="403000" />
+      <workItem from="1630539018705" duration="1481000" />
+      <workItem from="1630578492076" duration="782000" />
+      <workItem from="1630583444401" duration="21000" />
+      <workItem from="1630622150912" duration="1329000" />
+      <workItem from="1630663371223" duration="1200000" />
+      <workItem from="1630668120498" duration="139000" />
+      <workItem from="1630713107338" duration="28000" />
+      <workItem from="1630811138875" duration="6086000" />
+      <workItem from="1630887115333" duration="328000" />
+      <workItem from="1630903013460" duration="364000" />
+      <workItem from="1630924198881" duration="438000" />
+      <workItem from="1630930694971" duration="15000" />
+      <workItem from="1630970950573" duration="882000" />
+      <workItem from="1630972046963" duration="1694000" />
+      <workItem from="1631009929587" duration="747000" />
+      <workItem from="1631016902287" duration="25000" />
+      <workItem from="1631185123619" duration="903000" />
+      <workItem from="1631240072204" duration="639000" />
+      <workItem from="1631268897852" duration="938000" />
+      <workItem from="1631274402326" duration="2324000" />
+      <workItem from="1631360557188" duration="2963000" />
+      <workItem from="1631403837446" duration="784000" />
+      <workItem from="1631490640923" duration="940000" />
+      <workItem from="1631527417845" duration="1458000" />
+      <workItem from="1631577921670" duration="329000" />
+      <workItem from="1631664531749" duration="35000" />
+      <workItem from="1631667941278" duration="6169000" />
+      <workItem from="1631749498100" duration="246000" />
+      <workItem from="1631754819741" duration="4725000" />
+      <workItem from="1631802103411" duration="192000" />
+      <workItem from="1631837075619" duration="233000" />
+      <workItem from="1631884153218" duration="1125000" />
+      <workItem from="1631921071786" duration="536000" />
+      <workItem from="1631957726561" duration="1792000" />
+      <workItem from="1632013962994" duration="2000" />
+      <workItem from="1632018590915" duration="4591000" />
+      <workItem from="1632092115152" duration="2746000" />
+      <workItem from="1632145339733" duration="2234000" />
+      <workItem from="1632226904540" duration="6132000" />
+      <workItem from="1632272900666" duration="6073000" />
+      <workItem from="1632354322705" duration="264000" />
+      <workItem from="1632370346738" duration="3379000" />
+      <workItem from="1632440664609" duration="1342000" />
+      <workItem from="1632459625815" duration="2034000" />
+      <workItem from="1632512679018" duration="2908000" />
+      <workItem from="1632629354102" duration="1498000" />
+      <workItem from="1632658983241" duration="132000" />
+      <workItem from="1632661334597" duration="201000" />
+      <workItem from="1632698979002" duration="806000" />
+      <workItem from="1632702671995" duration="1166000" />
+      <workItem from="1632706795028" duration="137000" />
+      <workItem from="1632714067418" duration="1323000" />
+      <workItem from="1632745702634" duration="225000" />
+      <workItem from="1632751356935" duration="6000" />
+      <workItem from="1632784722002" duration="1020000" />
+      <workItem from="1632806329569" duration="732000" />
+      <workItem from="1632822594549" duration="3805000" />
+      <workItem from="1632826900852" duration="179000" />
+      <workItem from="1632879572107" duration="718000" />
+      <workItem from="1632910958828" duration="369000" />
+      <workItem from="1633309769710" duration="334000" />
+      <workItem from="1633338722566" duration="1678000" />
+      <workItem from="1633398375059" duration="920000" />
+      <workItem from="1633423781646" duration="3374000" />
+      <workItem from="1633697753883" duration="1285000" />
+      <workItem from="1633702696738" duration="4133000" />
+      <workItem from="1633771152250" duration="3934000" />
+      <workItem from="1633835286583" duration="878000" />
+      <workItem from="1633854320503" duration="3584000" />
+      <workItem from="1633866124878" duration="5572000" />
+      <workItem from="1633872614883" duration="238000" />
+      <workItem from="1633907588557" duration="2051000" />
+      <workItem from="1633910515097" duration="437000" />
+      <workItem from="1633914418928" duration="5579000" />
+      <workItem from="1633992150806" duration="1950000" />
+      <workItem from="1634000593697" duration="6814000" />
+      <workItem from="1634041205309" duration="247000" />
+      <workItem from="1634081273357" duration="2373000" />
+      <workItem from="1634089664581" duration="2950000" />
+      <workItem from="1634128379013" duration="604000" />
+      <workItem from="1634134667056" duration="735000" />
+      <workItem from="1634175758658" duration="1593000" />
+      <workItem from="1634212246062" duration="1459000" />
+      <workItem from="1634253427587" duration="1145000" />
+      <workItem from="1634255379551" duration="3322000" />
+      <workItem from="1634262013519" duration="7437000" />
+      <workItem from="1634345637371" duration="7000" />
+      <workItem from="1634345650466" duration="5148000" />
+      <workItem from="1634394729899" duration="3389000" />
+      <workItem from="1634478543999" duration="456000" />
+      <workItem from="1634479007996" duration="3351000" />
+      <workItem from="1634531764323" duration="6131000" />
+      <workItem from="1634600432056" duration="2716000" />
+      <workItem from="1634612799847" duration="8885000" />
+      <workItem from="1634654768426" duration="4220000" />
+      <workItem from="1634725380136" duration="559000" />
+      <workItem from="1634728933102" duration="598000" />
+      <workItem from="1634897018847" duration="810000" />
+      <workItem from="1634911342110" duration="598000" />
+      <workItem from="1635036504625" duration="707000" />
+      <workItem from="1635037217976" duration="2486000" />
+      <workItem from="1635117263422" duration="2056000" />
+      <workItem from="1635135211521" duration="4924000" />
+      <workItem from="1635163775557" duration="704000" />
+      <workItem from="1635203746151" duration="2629000" />
+      <workItem from="1635211951271" duration="1880000" />
+      <workItem from="1635250786107" duration="328000" />
+      <workItem from="1635292214176" duration="1511000" />
+      <workItem from="1635337352917" duration="120000" />
+      <workItem from="1635376491804" duration="2525000" />
+      <workItem from="1635422206799" duration="1570000" />
+      <workItem from="1635429116438" duration="2221000" />
+      <workItem from="1635471696642" duration="12000" />
+      <workItem from="1635489474626" duration="6150000" />
+      <workItem from="1635740922931" duration="4709000" />
+      <workItem from="1635777694365" duration="596000" />
+      <workItem from="1635811100457" duration="762000" />
+      <workItem from="1635812417293" duration="1521000" />
+      <workItem from="1635816829541" duration="130000" />
+      <workItem from="1635832214267" duration="3799000" />
+      <workItem from="1635854608709" duration="1175000" />
+      <workItem from="1635895730717" duration="4000" />
+      <workItem from="1635897800402" duration="1212000" />
+      <workItem from="1635903351841" duration="1299000" />
+      <workItem from="1635947507223" duration="1238000" />
+      <workItem from="1635989599469" duration="1936000" />
+      <workItem from="1636024497315" duration="3000" />
+      <workItem from="1636107258019" duration="458000" />
+      <workItem from="1636111290842" duration="599000" />
+      <workItem from="1636173965828" duration="2226000" />
+      <workItem from="1636459468756" duration="110000" />
+      <workItem from="1636500053908" duration="926000" />
+      <workItem from="1636504713810" duration="478000" />
+      <workItem from="1636532676266" duration="1745000" />
+      <workItem from="1636590663194" duration="638000" />
+      <workItem from="1636625996192" duration="744000" />
+      <workItem from="1636629602307" duration="1795000" />
+      <workItem from="1636710344207" duration="733000" />
+      <workItem from="1636776887583" duration="1359000" />
+      <workItem from="1636932193902" duration="712000" />
+      <workItem from="1636967257876" duration="8558000" />
+      <workItem from="1637017893528" duration="1766000" />
+      <workItem from="1637037214156" duration="7223000" />
+      <workItem from="1637142911802" duration="1651000" />
+      <workItem from="1637189979173" duration="602000" />
+      <workItem from="1637238030348" duration="414000" />
+      <workItem from="1637277318372" duration="2485000" />
+      <workItem from="1637317071668" duration="687000" />
+      <workItem from="1637371775838" duration="243000" />
+      <workItem from="1637565929735" duration="1782000" />
+      <workItem from="1637627699822" duration="5378000" />
+      <workItem from="1637663492819" duration="229000" />
+      <workItem from="1637705022945" duration="599000" />
+      <workItem from="1637715310964" duration="5348000" />
+      <workItem from="1637793367818" duration="269000" />
+      <workItem from="1637793644295" duration="599000" />
+      <workItem from="1637799898386" duration="1213000" />
+      <workItem from="1637920911484" duration="840000" />
+      <workItem from="1637968210612" duration="1845000" />
+      <workItem from="1638056246920" duration="1371000" />
+      <workItem from="1638146357620" duration="4823000" />
+      <workItem from="1638225119399" duration="895000" />
+      <workItem from="1638231483968" duration="2897000" />
+      <workItem from="1638270328289" duration="631000" />
+      <workItem from="1638405538224" duration="2744000" />
+      <workItem from="1638443664852" duration="3001000" />
+      <workItem from="1638499863587" duration="2165000" />
+      <workItem from="1638752709520" duration="785000" />
+      <workItem from="1638835443263" duration="3082000" />
+      <workItem from="1638868386384" duration="602000" />
+      <workItem from="1638884339072" duration="4901000" />
+      <workItem from="1638922756916" duration="599000" />
+      <workItem from="1638964563104" duration="83000" />
+      <workItem from="1639009041724" duration="1017000" />
+      <workItem from="1639015778187" duration="599000" />
+      <workItem from="1639016778781" duration="120000" />
+      <workItem from="1639016911678" duration="2703000" />
+      <workItem from="1639065382008" duration="251000" />
+      <workItem from="1639094775291" duration="2239000" />
+      <workItem from="1639111030833" duration="40000" />
+      <workItem from="1639131340501" duration="791000" />
+      <workItem from="1639354335137" duration="4711000" />
+      <workItem from="1639393330720" duration="127000" />
+      <workItem from="1639443745383" duration="1680000" />
+      <workItem from="1639478893092" duration="713000" />
+      <workItem from="1639530102080" duration="2290000" />
+      <workItem from="1639544308379" duration="1219000" />
+      <workItem from="1639572379451" duration="724000" />
+      <workItem from="1639609071585" duration="1725000" />
+      <workItem from="1639616320380" duration="3466000" />
+      <workItem from="1639637178415" duration="1717000" />
+      <workItem from="1639645910599" duration="1567000" />
+      <workItem from="1639653876932" duration="724000" />
+      <workItem from="1639664277186" duration="2035000" />
+      <workItem from="1639705540690" duration="21000" />
+      <workItem from="1639715156706" duration="11791000" />
+      <workItem from="1639737854234" duration="86000" />
+      <workItem from="1639796211183" duration="819000" />
+      <workItem from="1639876569716" duration="4393000" />
+      <workItem from="1639898070722" duration="7931000" />
+      <workItem from="1639960031729" duration="1738000" />
+      <workItem from="1639999342592" duration="132000" />
+      <workItem from="1640045619952" duration="3057000" />
+      <workItem from="1640056244352" duration="5424000" />
+      <workItem from="1640087392466" duration="704000" />
+      <workItem from="1640130081863" duration="8000" />
+      <workItem from="1640132123711" duration="1428000" />
+      <workItem from="1640159628814" duration="3129000" />
+      <workItem from="1640166406329" duration="621000" />
+      <workItem from="1640167966407" duration="972000" />
+      <workItem from="1640171759087" duration="599000" />
+      <workItem from="1640247017361" duration="2048000" />
+      <workItem from="1640271180934" duration="317000" />
+      <workItem from="1640341147106" duration="624000" />
+      <workItem from="1640579486545" duration="624000" />
+      <workItem from="1640608745224" duration="131000" />
+      <workItem from="1640653372085" duration="615000" />
+      <workItem from="1640672619895" duration="3200000" />
+      <workItem from="1640695167513" duration="180000" />
+      <workItem from="1640736848243" duration="598000" />
+      <workItem from="1640780540180" duration="136000" />
+      <workItem from="1640860624125" duration="489000" />
+      <workItem from="1640909280848" duration="1888000" />
+      <workItem from="1640925802649" duration="4078000" />
+      <workItem from="1640948337326" duration="733000" />
+      <workItem from="1641010910717" duration="10566000" />
+      <workItem from="1641042147413" duration="598000" />
+      <workItem from="1641081793939" duration="12366000" />
+      <workItem from="1641196313303" duration="1567000" />
+      <workItem from="1641260447365" duration="131000" />
+      <workItem from="1641338591939" duration="1832000" />
+      <workItem from="1641357416704" duration="1245000" />
+      <workItem from="1641375646976" duration="595000" />
+      <workItem from="1641385413985" duration="224000" />
+      <workItem from="1641424410598" duration="1464000" />
+      <workItem from="1641444278613" duration="2290000" />
+      <workItem from="1641467162875" duration="483000" />
+      <workItem from="1641511272645" duration="3873000" />
+      <workItem from="1641528676740" duration="2436000" />
+      <workItem from="1641548517040" duration="1245000" />
+      <workItem from="1641562500445" duration="13256000" />
+      <workItem from="1641717708168" duration="1226000" />
+      <workItem from="1641774338729" duration="286000" />
+      <workItem from="1641788133640" duration="1528000" />
+      <workItem from="1641816086445" duration="979000" />
+      <workItem from="1641861175981" duration="552000" />
+      <workItem from="1641865246077" duration="2277000" />
+      <workItem from="1641896229031" duration="686000" />
+      <workItem from="1642048600791" duration="4232000" />
+      <workItem from="1642155285302" duration="702000" />
+      <workItem from="1642395656087" duration="244000" />
+      <workItem from="1642421577846" duration="1176000" />
+      <workItem from="1642480429530" duration="2127000" />
+      <workItem from="1642487792659" duration="3975000" />
+      <workItem from="1642507160243" duration="1416000" />
+      <workItem from="1642546742432" duration="2206000" />
+      <workItem from="1642562797235" duration="359000" />
+      <workItem from="1642565936996" duration="7142000" />
+      <workItem from="1642633852042" duration="648000" />
+      <workItem from="1642660300626" duration="7757000" />
+      <workItem from="1642687889272" duration="7000" />
+      <workItem from="1642729682172" duration="9810000" />
+      <workItem from="1642762643535" duration="698000" />
+      <workItem from="1642834283341" duration="2664000" />
+      <workItem from="1642910837301" duration="888000" />
+      <workItem from="1642915808727" duration="1797000" />
+      <workItem from="1642998000488" duration="1381000" />
+      <workItem from="1643074902603" duration="1194000" />
+      <workItem from="1643106428871" duration="202000" />
+      <workItem from="1643160864339" duration="9423000" />
+      <workItem from="1643183772776" duration="2572000" />
+      <workItem from="1643239824210" duration="2086000" />
+      <workItem from="1643288578066" duration="1989000" />
+      <workItem from="1643334579650" duration="2547000" />
+      <workItem from="1643411578131" duration="3000" />
     </task>
     <task id="LOCAL-00001" summary="add backtracking">
       <created>1616389013539</created>
@@ -634,7 +1021,28 @@
       <option name="project" value="LOCAL" />
       <updated>1628000432142</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="·">
+      <created>1632180356861</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1632180356861</updated>
+    </task>
+    <task id="LOCAL-00014" summary="·">
+      <created>1632703753560</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1632703753560</updated>
+    </task>
+    <task id="LOCAL-00015" summary="add">
+      <created>1641604285034</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1641604285034</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -643,10 +1051,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add backtracking" />
     <MESSAGE value="add knapsack" />
-    <MESSAGE value="add" />
     <MESSAGE value="update" />
     <MESSAGE value="·" />
-    <option name="LAST_COMMIT_MESSAGE" value="·" />
+    <MESSAGE value="add" />
+    <option name="LAST_COMMIT_MESSAGE" value="add" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -701,7 +1109,38 @@
           <line>13</line>
           <option name="timeStamp" value="29" />
         </line-breakpoint>
-        <breakpoint enabled="true" type="java-exception">
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/concurrent/Cache.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/algorithmlesson/queue/SlidingWindowMaximum.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/algorithmlesson/binarysearch/FindMin.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/algorithmlesson/binarysearch/SearchMatrix.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/algorithmlesson/hashmap/LRUCache.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <condition expression="preorder[preStart + 1] == 2" language="JAVA" />
+          <url>file://$PROJECT_DIR$/src/main/java/com/algorithmlesson/binarytree/ConstrunctFromPreAndPost.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <breakpoint type="java-exception">
           <properties class="java.lang.UnsupportedOperationException" package="java.lang" />
           <option name="timeStamp" value="17" />
         </breakpoint>
@@ -711,5 +1150,10 @@
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/algorithm$ReverseNodesInKGroup.ic" NAME="ReverseNodesInKGroup Coverage Results" MODIFIED="1639356155501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.algorithmlesson.linkedlist.*</FILTER>
+    </SUITE>
   </component>
 </project>

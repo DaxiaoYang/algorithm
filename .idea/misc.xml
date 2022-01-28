@@ -6,6 +6,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/../designpattern/pom.xml" />
         <option value="$PROJECT_DIR$/../tomcat/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring-practice/pom.xml" />
       </list>
     </option>
   </component>

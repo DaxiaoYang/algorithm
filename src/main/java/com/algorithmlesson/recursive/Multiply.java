@@ -48,4 +48,18 @@ public class Multiply {
         return (B & (1 << bit)) != 0 ? (A << bit) + multiply(A, B, bit + 1)
                 : multiply(A, B, bit + 1);
     }
+
+
+    public int multiply2(int A, int B) {
+        if (A == 1) {
+            return B;
+        }
+        // 分解为A个B相加
+        int half = multiply2(A >> 1, B);
+        if ((A & 1) == 1) {
+            return half + half + B;
+        } else {
+            return half + half;
+        }
+    }
 }

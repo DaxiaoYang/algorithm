@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/algorithm.iml" filepath="$PROJECT_DIR$/.idea/algorithm.iml" />
       <module fileurl="file://$PROJECT_DIR$/../designpattern/designpattern.iml" filepath="$PROJECT_DIR$/../designpattern/designpattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/../tomcat/embeddedTomcatSample.iml" filepath="$PROJECT_DIR$/../tomcat/embeddedTomcatSample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../spring-practice/spring-practice.iml" filepath="$PROJECT_DIR$/../spring-practice/spring-practice.iml" />
     </modules>
   </component>
 </project>

@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="designpattern" />
         <module name="embeddedTomcatSample" />
+        <module name="spring-practice" />
         <module name="algorithm" />
       </profile>
     </annotationProcessing>
@@ -16,6 +17,7 @@
       <module name="algorithm" target="1.8" />
       <module name="designpattern" target="1.8" />
       <module name="embeddedTomcatSample" target="1.8" />
+      <module name="spring-practice" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

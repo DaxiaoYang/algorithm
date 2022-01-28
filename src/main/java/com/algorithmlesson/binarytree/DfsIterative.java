@@ -14,13 +14,14 @@ import java.util.List;
 public class DfsIterative {
 
     public static void main(String[] args) {
-        TreeNode root = new TreeNode(1);
-        TreeNode left = new TreeNode(2);
-        root.left = left;
-        root.right = new TreeNode(3);
-        left.left = new TreeNode(4);
-        left.right = new TreeNode(5);
-        System.out.println(preorderTraversal(root));
+//        TreeNode root = new TreeNode(1);
+//        TreeNode left = new TreeNode(2);
+//        root.left = left;
+//        root.right = new TreeNode(3);
+//        left.left = new TreeNode(4);
+//        left.right = new TreeNode(5);
+//        System.out.println(preorderTraversal(root));
+//        char c = -1;
     }
 
     /**
