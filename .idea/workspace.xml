@@ -291,7 +291,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Baggage">
+  <component name="RunManager" selected="Application.NextGreatestLetter">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -316,19 +316,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CombinationOfPhoneNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.algorithmlesson.backtrack.CombinationOfPhoneNumber" />
-      <module name="algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.algorithmlesson.backtrack.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="HeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.algorithmlesson.sort.HeapSort" />
       <module name="algorithm" />
@@ -338,6 +325,13 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NextGreatestLetter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algorithm.binarysearch.NextGreatestLetter" />
+      <module name="algorithm" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -372,14 +366,13 @@
       <module name="designpattern" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.daxiao.designpattern.DesignpatternApplication" />
       <option name="VM_PARAMETERS" value="-Xmx1024m -Xss400k -verbose:gc -Xloggc:$PROJECT_DIR$/../designpattern/gc.log -XX:+PrintGCTimeStamps -XX:+PrintGCDateStamps -XX:+PrintGCDetails -XX:+UseGCLogFileRotation -XX:NumberOfGCLogFiles=10 -XX:GCLogFileSize=100m" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.NextGreatestLetter" />
       <item itemvalue="Application.WorkJsonGenerator" />
-      <item itemvalue="Application.CombinationOfPhoneNumber" />
       <item itemvalue="Application.Permutation2" />
       <item itemvalue="Application.HeapSort" />
       <item itemvalue="Application.Baggage" />
@@ -387,11 +380,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NextGreatestLetter" />
         <item itemvalue="Application.Baggage" />
         <item itemvalue="Application.HeapSort" />
         <item itemvalue="Application.WorkJsonGenerator" />
         <item itemvalue="Application.Permutation2" />
-        <item itemvalue="Application.CombinationOfPhoneNumber" />
       </list>
     </recent_temporary>
   </component>
